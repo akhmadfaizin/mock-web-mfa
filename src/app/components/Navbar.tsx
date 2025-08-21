@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center border-b-2 border-[#ececec] pb-4">
         {/* Desktop Navbar Left Section */}
         <div className="hidden md:flex items-center gap-8">
-          <div className="text-lg font-bold">AEON</div>
+          <div className="text-lg font-bold">AKFA</div>
           {renderMenu()}
         </div>
 
@@ -59,8 +59,8 @@ export default function Navbar() {
 
         {/* Mobile Header */}
         <div className="md:hidden flex items-center justify-between w-full">
-          <div className="font-bold text-[#1f7dda]">AEON</div>
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <div className="font-bold text-[#1f7dda]">AKFA</div>
+          <button aria-label="Toggle menu" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <span className="flex items-center gap-2">
                 <Search size={24} />
