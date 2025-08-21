@@ -31,7 +31,7 @@ export default function Navbar() {
   );
 
   const loginButton = (
-    <Link href="/dashboard">
+    <Link href="/login">
       <button className="bg-[#fefefe] text-[#666666] md:px-4 px-0 py-2 rounded cursor-pointer">
         Login
       </button>
